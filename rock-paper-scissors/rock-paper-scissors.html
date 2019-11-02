@@ -1,12 +1,34 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Rock Paper Scissors game</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+      <div class="player-badge" id="user-name">user</div>
+      <div class="player-badge" id="comp-name">comp</div>
+      <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+    <div class="result">
+      <p class="result">Time to start</p>
+    </div>
+    <div class="weapons">
+      <div class="weapon" id="rock">
+        <img src="img/stone.png" alt="rock">
+      </div>
+      <div class="weapon" id="paper">
+        <img src="img/paper.png" alt="paper">
+      </div>
+      <div class="weapon" id="scissors">
+        <img src="img/scissors.png" alt="scissors">
+      </div>
+    </div>
+    <p class="action-message">Make you move.</p>
   </body>
 </html>
